@@ -1,0 +1,2 @@
+selected_model,default_threshold,optimized_threshold,default_f1,optimized_f1,roc_auc,default_recall,optimized_recall,default_specificity,optimized_specificity
+Random Forest,0.5,0.4399,0.6652,0.6965,0.908,0.5938,0.668,0.9531,0.9387

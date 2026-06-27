@@ -1,0 +1,16 @@
+model,metric,mean,std
+Logistic Regression,accuracy,0.8167,0.0097
+Logistic Regression,precision,0.5743,0.0523
+Logistic Regression,recall,0.2671,0.021
+Logistic Regression,f1,0.3642,0.0282
+Logistic Regression,roc_auc,0.8104,0.014
+Decision Tree,accuracy,0.7193,0.0318
+Decision Tree,precision,0.3995,0.0237
+Decision Tree,recall,0.823,0.0554
+Decision Tree,f1,0.5363,0.016
+Decision Tree,roc_auc,0.8177,0.0111
+Random Forest,accuracy,0.8878,0.0098
+Random Forest,precision,0.7667,0.0356
+Random Forest,recall,0.6186,0.0336
+Random Forest,f1,0.6841,0.028
+Random Forest,roc_auc,0.9202,0.0127
