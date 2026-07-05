@@ -394,3 +394,29 @@ jupyter notebook notebooks/Clasificacion_de_calidad_de_vinos.ipynb
 El notebook ejecuta el flujo completo: carga y exploración del dataset, entrenamiento de los tres
 modelos, cálculo de métricas, validación cruzada, curva ROC, ajuste de umbral, pruebas A/B y
 generación del dashboard.
+
+# Ejecución del proyecto en una pc local
+
+## Requisitos
+
+- Docker Desktop
+
+## Pasos
+
+```bash
+git clone https://github.com/CarlitosDamm/hackaton
+cd Hackaton
+docker compose up --build
+```
+
+Abrir en el navegador:
+
+```
+http://localhost:8080
+```
+
+Para detener la aplicación:
+
+```bash
+docker compose down
+```
