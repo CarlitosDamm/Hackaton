@@ -13,3 +13,12 @@ class WineInput(BaseModel):
     pH: float
     sulphates: float
     alcohol: float
+    wine_type: float
+
+
+class PredictionResponse(BaseModel):
+    model: str
+    prediction: int
+    quality_label: str
+    probability_high_quality: float
+    threshold_used: float
