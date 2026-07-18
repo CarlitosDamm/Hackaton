@@ -15,6 +15,7 @@ target_labels = package["target_labels"]
 
 
 def predict_wine_quality(input_data: dict) -> dict:
+
     input_df = pd.DataFrame([{
         "fixed acidity": input_data["fixed_acidity"],
         "volatile acidity": input_data["volatile_acidity"],
