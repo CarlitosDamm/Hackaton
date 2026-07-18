@@ -1,9 +1,7 @@
 # Clasificador de Calidad de Vinos con MLOps
 ## API de Predicción con FastAPI, Docker, MLflow y Monitoreo
 
-**Equipo**
 - Carlos Alberto Damm Manzanera
-- Agustín Gerardo Jardínez Arciniega
 
 **Materia:** Gestión de Proyectos de Inteligencia Artificial
 
