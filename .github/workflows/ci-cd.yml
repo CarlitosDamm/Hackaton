@@ -43,6 +43,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Version model artifact
+        run: |
+          echo "Model file: app/model/clasificador_vinos.joblib"
+          echo "Git commit: ${{ github.sha }}"
+          sha256sum app/model/clasificador_vinos.joblib
+
       - name: Build backend Docker image
         run: |
           docker build \
